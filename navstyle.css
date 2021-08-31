@@ -71,9 +71,3 @@ ul.topnav li.right
     float: right;
 }
 
-@media screen and (max-width: 500px){
-    ul.topnav li.right,ul.topnav li,ul.topnav div.dropdown
-    {
-        float: none;
-    }
-}
