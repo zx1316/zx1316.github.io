@@ -4,7 +4,7 @@ ul.topnav
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:rgb(29, 172, 255); 
+    background-color: #F3F3F3;
 }
 
 ul.topnav li
@@ -15,21 +15,14 @@ ul.topnav li
 ul.topnav li a,.dropbtn
 {
     display: block;
-    color:white;
+    color: #666666;
     text-align: center;
-    padding: 12px 14px;
+    padding: 14px 16px;
     text-decoration: none;
     transition: all 0.3s ease;
-    font-weight: 400;
 }
 
-ul.topnav li a:hover:not(.active),.dropdown:hover
-{
-    background-color:rgb(59, 183, 255); 
-    transition: all 0.3s ease;
-}
-
-.dropdown-content a:hover
+ul.topnav li a:hover:not(.active),.dropdown:hover,.dropdown-content a:hover
 {
     background-color: #e2e2e2;
     transition: all 0.3s ease;
@@ -37,13 +30,13 @@ ul.topnav li a:hover:not(.active),.dropdown:hover
 
 ul.topnav li a.active:hover
 {
-    background-color: #e2e2e2;
+    background-color: #31a1c6;
 }
 
 ul.topnav li a.active
 {
-    background-color: #f3f3f3;
-    color:#666666;
+    background-color: #008cba;
+    color:white
 }
 
 .dropdown
@@ -82,7 +75,6 @@ ul.topnav li.right
 {
     .dropdown-content a,ul.topnav li a,.dropbtn
     {
-        /* font-size:34px */
-        font-size: 150%;
+        font-size:34px
     }
 }
