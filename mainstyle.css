@@ -18,7 +18,7 @@
     box-shadow: 10px 10px 5px rgba(0,0,0,0.35);
     background-color: #eeeeee;
     margin-bottom: 10px;
-    padding:30px;
+    padding:15px 30px;
     height:fit-content;
 }
 
@@ -50,23 +50,24 @@ body
 
     div.center2 p,div.center2 span
     {
-        font-size: 150%;
+        font-size: 200%;
     }
     div.center2 h2
     {
-        font-size: 45px;
+        font-size: 60px;
     }
     div.center3 span
     {
-        font-size: 60px;
+        font-size: 80px;
     }
 
 }
 
 .center2 p
 {
-    font-size: 19px;
+    font-size: 17px;
     color:#444444;
+    line-height: 150%;
 }
 
 .header
@@ -83,3 +84,4 @@ body
 {
     font-size: 16px;
 }
+
