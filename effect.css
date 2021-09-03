@@ -8,7 +8,7 @@
 
 p span.mask
 {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .mask:hover
@@ -20,6 +20,6 @@ p span.mask
 {
     p span.mask
     {
-        font-size: 34px;
+        font-size: 24px;
     }
 }
